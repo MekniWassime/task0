@@ -105,3 +105,13 @@ a {
     color-scheme: dark;
   }
 }
+
+.product-item-wrapper .header{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.product-item-wrapper{
+  width: 50%;
+  padding: 10px 0px;
+}

@@ -7,10 +7,12 @@ interface ProductItemProps {
 
 function ProductItem({ product: { name, price, description } }: ProductItemProps) {
     return (
-        <div>
-            <div> {name} </div>
-            <div> {price}</div>
-            <p> {description} </p>
+        <div className='product-item-wrapper'>
+            <div className='header'>
+                <div className='name'> {name} </div>
+                <div className='price'> {price}</div>
+            </div>
+            <p className='description'> {description} </p>
         </div>
     )
 }
